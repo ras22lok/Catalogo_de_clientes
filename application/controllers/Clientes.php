@@ -37,7 +37,7 @@
                 $this->load->model('clientes_model');
                 $this->clientes_model->cadastrarCliente($diretorio, $empresa, $telefone);
 
-                $msg = "Upload realizado com sucesso!";
+                $msg = "Cadastro realizado com sucesso!";
                 $this->session->set_flashdata('success', $msg);
                 echo $msg;
             }

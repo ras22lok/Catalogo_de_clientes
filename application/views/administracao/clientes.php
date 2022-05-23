@@ -32,6 +32,7 @@
         
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand">Catalogo de clientes</a>
+            <a href="<?= base_url('index.php/clientes/cadastro');?>" class="btn btn-outline-success my-2 my-sm-0">Novo cliente</a>
             <form class="form-inline" action="<?= base_url('index.php/clientes/pesquisaCliente');?>" method="POST">
                 <input class="form-control mr-sm-2" type="text" name="pesquisa" placeholder="Buscar clientes" aria-label="Search">
                 <select name="tipo_pesq" class="form-control mr-sm-2">
